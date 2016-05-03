@@ -1,0 +1,61 @@
+body {
+    text-align: center;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 10pt;
+}
+
+#container {
+    display: inline-block;
+    width: 850px;
+    margin-top: 30px;
+    text-align: left;
+}
+
+table {
+    width: 100%;
+}
+
+form[name="add"] {
+    margin-top: 30px;
+}
+
+form[name="delete"] > input[type="submit"] {
+    margin-top: 5px;
+}
+
+.errorMsg, .niceMsg {
+    padding: 5px;
+    font-weight: bold;
+}
+
+.errorMsg:empty, .niceMsg:empty {
+    display: none;
+}
+
+.errorMsg {
+    background-color: rgba(255, 0, 0, 0.65);
+}
+
+.niceMsg {
+    background-color: rgba(127, 255, 212, 0.55)
+}
+
+.dataTables_filter {
+    margin-bottom: 5px;
+}
+
+.ui-widget-header {
+    background: none;
+    border: none;
+}
+
+.ext {
+    color: white;
+    background-color: mediumslateblue;
+    text-transform: uppercase;
+    text-decoration: underline;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 1.1em;
+    padding: 3px;
+}
